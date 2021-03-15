@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Start the move it commander with the remap to /combined_joint_states -->
+  <node name="hrwros_simple_pick_place" pkg="hrwros_week4" type="simple_pick_place.py" output="screen">
+    <remap from="/joint_states" to="/combined_joint_states"/>
+  </node>
+</launch>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Final Project">
+
+	<executable package_path="flexbe_behaviors.final_project_sm" class="FinalProjectSM" />
+	<tagstring></tagstring>
+	<author>you</author>
+	<date></date>
+	<description>
+		Final project for the MOOC Hello (Real) World with ROS
+The three robots in the factory move to process the parts
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Start the template publisher ROS node.-->
+  <node name="node_1" pkg="hrwros_week1" type="template_publisher_script.py"
+    output="screen"/>
+
+  <!-- Start the template subscriber ROS node.-->
+  <node name="node_2" pkg="hrwros_week1" type="template_subscriber_script.py"
+    output="screen"/>
+</launch>
+
