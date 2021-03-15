@@ -27,7 +27,7 @@ You have to download, install, enjoy Ubuntu. There are a lot of manuals about in
 
 
 
-### Installation hrwros_ws
+### Installation hrwros
 
 You have to upgrade your system.
 
@@ -65,7 +65,7 @@ Second step is cloning catkin workspace.
 ```bash
 CATKIN_WS=~/catkin_workspaces/hrwros_ws # If you want another name or path fell free to replace this environment variable
 
-git clone https://github.com/AquilaUAV/hrwros_ws.git ${CATKIN_WS}
+git clone https://github.com/ITMO-lab/hrwros.git ${CATKIN_WS}
 cd ${CATKIN_WS}
 
 # bash upgrade_weeks.sh (Optional) You can upgrade course sources
@@ -76,17 +76,3 @@ catkin_make
 echo "source ${CATKIN_WS}/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
-
-
-
-### 2. Installation   
-
-
-
-```bash
-
-
-# You will then need to reboot your system because kernel has just updated.
-sudo reboot
-```
-
